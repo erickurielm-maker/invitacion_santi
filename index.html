@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>⚡ Bautizo de Henry Santiago ⚡</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="nubes-container"></div>
+<div id="decoracion-container"></div>
+<button id="btn-musica" class="btn-musica" onclick="toggleMusica()" title="Reproducir música">
+<span id="icono-musica">🔇</span>
+</button>
+<audio id="musica-fondo" loop>
+<source src="musica.mp3" type="audio/mpeg">
+</audio>
+<main class="container">
+<div class="hercules-decoracion">
+<img src="hercules.jpg" alt="Hércules bebé" class="imagen-hercules" />
+</div>
+<header class="header">
+<p class="texto-intro">Con la bendición del cielo y el amor de nuestra familia</p>
+<h1 class="titulo">Bautizo</h1>
+<p class="subtitulo">de nuestro pequeño héroe</p>
+<div class="corona-decorativa">👑</div>
+</header>
+<section class="foto-section">
+<div class="foto-marco">
+<img src="santi.jpg" alt="Henry Santiago" id="foto-henry" class="foto-perfil" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22%3E%3Crect width=%22300%22 height=%22300%22 fill=%22%23c5e8f7%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%232c5f8d%22 font-size=%2280%22 font-family=%22Arial%22%3E👶%3C/text%3E%3C/svg%3E'"
+/>
+<div class="foto-brillo"></div>
+<div class="rayo-esquina-1">⚡</div>
+<div class="rayo-esquina-2">⚡</div>
+</div>
+</section>
+<section class="nombre-section">
+<h2 class="nombre-bebe">Henry Santiago</h2>
+<p class="apellidos">Muñoz Sánchez</p>
+<div class="linea-decorativa">⚡ ✦ ⚡ ✦ ⚡</div>
+</section>
+<section class="countdown-section">
+<h3 class="countdown-titulo">⏳ Faltan para el gran día ⏳</h3>
+<div class="countdown">
+<div class="box">
+<span class="numero" id="dias">00</span>
+<span class="etiqueta">Días</span>
+</div>
+<div class="box">
+<span class="numero" id="horas">00</span>
+<span class="etiqueta">Horas</span>
+</div>
+<div class="box">
+<span class="numero" id="minutos">00</span>
+<span class="etiqueta">Minutos</span>
+</div>
+<div class="box">
+<span class="numero" id="segundos">00</span>
+<span class="etiqueta">Segundos</span>
+</div>
+</div>
+</section>
+<section class="info-section">
+<div class="info-card">
+<div class="info-icono">📅</div>
+<div class="info-texto">
+<p class="info-titulo">Fecha</p>
+<p class="info-dato" id="fecha">Sábado, 5 de Diciembre 2026</p>
+</div>
+</div>
+<div class="info-card">
+<div class="info-icono">🕐</div>
+<div class="info-texto">
+<p class="info-titulo">Hora</p>
+<p class="info-dato" id="hora">4:00 PM</p>
+</div>
+</div>
+<div class="info-card">
+<div class="info-icono">⛪</div>
+<div class="info-texto">
+<p class="info-titulo">Misa</p>
+<p class="info-dato" id="lugar">Ex Convento de San Francisco</p>
+<p class="info-direccion" id="direccion">Centro, Tlaxcala</p>
+</div>
+</div>
+<div class="info-card">
+<div class="info-icono">🎉</div>
+<div class="info-texto">
+<p class="info-titulo">Fiesta</p>
+<p class="info-dato">Acuitlapilco</p>
+<p class="info-direccion">Tlaxcala</p>
+</div>
+</div>
+</section>
+<section class="familia-section">
+<div class="familia-card">
+<p class="familia-titulo">Papás</p>
+<p class="familia-nombres" id="papas">Valeria Sánchez Muñoz &amp; Erick Uriel Muñoz Muñoz</p>
+</div>
+<div class="familia-card">
+<p class="familia-titulo">Madrina</p>
+<p class="familia-nombres" id="padrinos">Nelly Sánchez</p>
+</div>
+</section>
+<section class="mensaje-section">
+<div class="rayo-medio">⚡</div>
+<p class="mensaje-texto">
+"Hoy comienza la aventura de fe de nuestro pequeño héroe. Acompáñanos en este día tan especial, donde el cielo y la tierra se unen para bendecir a Henry Santiago. Tu presencia será el tesoro más valioso en este momento único."
+</p>
+<div class="rayo-medio">⚡</div>
+</section>
+<section class="acciones">
+<a href="#" target="_blank" class="btn-whatsapp" id="btn-whatsapp">
+<span class="icon-whatsapp">
+<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+</svg>
+</span>
+Confirmar Asistencia
+</a>
+</section>
+<footer class="footer">
+<div class="linea-decorativa">⚡ ✦ ⚡</div>
+<p class="footer-texto">¡Te esperamos con mucho amor!</p>
+<p class="footer-familia" id="footer-familia">Familia Muñoz Sánchez</p>
+</footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
