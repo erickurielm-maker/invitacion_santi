@@ -6,7 +6,7 @@ const CONFIG = {
     apellidos: 'Muñoz Sánchez',
     fecha: 'Sábado, 5 de Diciembre 2026',
     hora: '5:00 PM',
-    lugar: 'Parroquia Santa María Acuitlapilco 4:00 PM',
+    lugar: 'Parroquia de Santa María Acuitlapilco 4:00 PM',
     direccion: 'Acuitlapilco, Tlaxcala',
     papas: 'Erick Uriel Muñoz Muñoz   &  Valeria Sánchez Muñoz',
     padrinos: 'Nelly  Cuatepotzo Sánchez',
