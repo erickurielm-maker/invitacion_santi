@@ -9,7 +9,7 @@ const CONFIG = {
     lugar: 'Parroquia de Santa María Acuitlapilco 4:00 PM',
     direccion: 'Acuitlapilco, Tlaxcala',
     papas: 'Erick Uriel Muñoz Muñoz   &  Valeria Sánchez Muñoz',
-    padrinos: 'Nelly  Cuatepotzo Sánchez',
+    padrinos: 'Nelli  Cuatepotzo Sánchez',
     familia: 'Familia Muñoz Sánchez'
 };
 
