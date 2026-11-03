@@ -5,11 +5,10 @@ const CONFIG = {
     nombreBebe: 'Henry Santiago',
     apellidos: 'Muñoz Sánchez',
     fecha: 'Sábado, 5 de Diciembre 2026',
-    hora: '5:00 PM',
-    lugar: 'Parroquia de Santa María Acuitlapilco 4:00 PM',
-    direccion: 'Acuitlapilco, Tlaxcala',
-    papas: 'Erick Uriel Muñoz Muñoz   &  Valeria Sánchez Muñoz',
-    padrinos: 'Nelli  Cuatepotzo Sánchez',
+    lugar: 'Parroquia de Santa María Acuitlapilco',
+    direccion: 'Carr. Puebla-Tlaxcala, Santa María Acuitlapilco',
+    papas: 'Erick Uriel Muñoz Muñoz & Valeria Sánchez Muñoz',
+    padrinos: 'Nelli Cuatepotzo Sánchez',
     familia: 'Familia Muñoz Sánchez'
 };
 
@@ -70,7 +69,6 @@ function actualizarDatos() {
     const elementos = {
         'nombre-bebe': CONFIG.nombreBebe,
         'fecha': CONFIG.fecha,
-        'hora': CONFIG.hora,
         'lugar': CONFIG.lugar,
         'direccion': CONFIG.direccion,
         'papas': CONFIG.papas,
