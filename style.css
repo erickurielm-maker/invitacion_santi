@@ -435,6 +435,39 @@ body {
     font-style: italic;
 }
 
+/* ===== ESTILOS PARA LOS MAPAS ===== */
+.info-card-mapa {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+    overflow: hidden;
+    background: #fff;
+}
+
+.info-card-mapa .info-texto {
+    padding: 1rem 1.2rem;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(197, 232, 247, 0.7), rgba(255, 249, 230, 0.7));
+    border-bottom: 2px solid rgba(244, 196, 48, 0.5);
+}
+
+.info-card-mapa .info-dato {
+    font-size: 0.95rem;
+}
+
+.info-card-mapa .info-direccion {
+    font-size: 0.8rem;
+    color: #2c5f8d;
+    font-weight: 600;
+}
+
+.mapa-google {
+    width: 100%;
+    height: 220px;
+    border: none;
+    display: block;
+}
+
 .familia-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -620,6 +653,7 @@ body {
     .icon-whatsapp svg { width: 20px; height: 20px; }
     .footer-texto { font-size: 0.9rem; }
     .footer-familia { font-size: 1.4rem; }
+    .mapa-google { height: 180px; }
 }
 
 @media (max-width: 360px) {
